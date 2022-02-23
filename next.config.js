@@ -4,6 +4,7 @@ module.exports = {
   //   ignoreBuildErrors: true,
   // },
   // trailingSlash: true,
+  webpack5: false,
   webpack(config, { webpack }) {
     const prod = process.env.NODE_ENV === 'production';
     return {
