@@ -9,8 +9,8 @@ const awsmobile = {
   oauth: {
     domain: 'earthpaper.auth.ap-northeast-2.amazoncognito.com',
     scope: ['aws.cognito.signin.user.admin', 'email', 'openid', 'phone', 'profile'],
-    redirectSignIn: 'http://localhost:3000,https://main.dch0tp50wbavj.amplifyapp.com,https://o2.naraspacetechnology.com',
-    redirectSignOut: 'http://localhost:3000,https://main.dch0tp50wbavj.amplifyapp.com,https://o2.naraspacetechnology.com',
+    redirectSignIn: 'http://localhost:3000',
+    redirectSignOut: 'http://localhost:3000',
     responseType: 'code',
   },
   federationTarget: 'COGNITO_USER_POOLS',
